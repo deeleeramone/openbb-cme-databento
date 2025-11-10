@@ -113,7 +113,7 @@ async def get_choices(udf_database: DatabaseDependency, asset_type: str = "") ->
             e,
             exc_info=True
         )
-        return [{"label": f"Error: {e}", "value": ""}]
+        return [{"label": "An internal error occurred.", "value": ""}]
 
 
 
