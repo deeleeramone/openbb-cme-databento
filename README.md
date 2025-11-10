@@ -8,9 +8,9 @@ to get started right away.
 
 ### Installation
 
-Download the parent folder, `openbb-databento`, from the repository, then open a terminal shell and navigate into the folder.
+Clone the repository and navigate into the folder.
 
-Create a new Python environment between versions 3.10 and 3.12, inclusively.
+Create a new Python environment between versions 3.10 and 3.13, inclusively.
 
 Use your tool of choice to install - i.e, Poetry, pip, etc.
 
