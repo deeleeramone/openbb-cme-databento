@@ -254,7 +254,7 @@ class ConnectionManager:
                 self.database.logger.error(
                     "Error getting symbology map: %s", e, exc_info=True
                 )
-                return [{"label": f"Error: {e}", "value": ""}]
+                return [{"label": "An internal error occurred while retrieving symbology.", "value": ""}]
 
         @self.router.get("/control/subscribe")
         async def control_subscribe(symbols: str):
